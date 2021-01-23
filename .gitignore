@@ -1,0 +1,29 @@
+*
+!*.*
+!*/
+
+# Created by https://www.gitignore.io/api/nim
+# Edit at https://www.gitignore.io/?templates=nim
+
+### Nim ###
+nimcache/
+
+# End of https://www.gitignore.io/api/nim
+
+!LICENSE
+!Dockerfile
+
+coverage/*
+lcov.info
+.vscode/*
+
+*.sqlite3
+migration.json
+examples2
+*.out
+karax
+*.js
+*.log
+*.log.*
+*.db
+*.db.*
